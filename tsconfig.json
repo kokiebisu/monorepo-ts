@@ -1,9 +1,6 @@
 {
-  "extends": "./tsconfig.build.json",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@monorepo/*": ["packages/*/src"]
-    }
-  }
+  "files": [],
+  "references": [{ "path": "bar" }, { "path": "foo" }],
+  "include": [],
+  "exclude": ["**/node_modules"]
 }
