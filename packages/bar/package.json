@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo/bar",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Kenichi Okiebisu <a01056715@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "module": "lib/index.ts",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
